@@ -1,47 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Layout</title>
     <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <!-- fonte do google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
-        <div id="header-logo">
-            <a href="index.html"><img src="images/innovation-class-logo.png" alt=""></a>
-        </div>
-        <div id="header-frase">
-            <h1>Desenvolvido por Arthur Lemos</h1>
+        <div class="container flex justify-content-space-between">
+            <div id="header-logo">
+                <a href="index.html"><img src="images/innovation-class-logo.png" alt=""></a>
+            </div>
+            <div id="header-frase">
+                <h1>Desenvolvido por Arthur Lemos</h1>
+            </div>
         </div>
     </header>
 
     <nav>
-        <ul>
-            <li><a href="#">Sobre Nós</a></li>
-            <li><a href="#">Produtos</a></li>
-            <li><a href="#">Serviços</a></li>
-            <li><a href="#">Contato</a></li>
-        </ul>
+        <div class="container">
+            <ul class="flex justify-content-space-around">
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="#contato.html">Contato</a></li>
+            </ul>
+        </div>
     </nav>
 
-    <main>
-        <section>
+    <main class="container">
+        <section id="tecnologia">
 
             <h2>Tecnologia</h2>
 
             <article>
                 <h3>Título do post</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, soluta provident? Incidunt, facere! Eum quo provident sunt perferendis beatae iure, et, vero aperiam odit magni libero. Ex corporis sapiente illo.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, soluta provident? Incidunt, facere!
+                    Eum quo provident sunt perferendis beatae iure, et, vero aperiam odit magni libero. Ex corporis
+                    sapiente illo.</p>
                 <a href="#">Leia mais</a>
-                <hr>
             </article>
 
             <article>
                 <h3>Título do post 02</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, soluta provident? Incidunt, facere! Eum quo provident sunt perferendis beatae iure, et, vero aperiam odit magni libero. Ex corporis sapiente illo.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, soluta provident? Incidunt, facere!
+                    Eum quo provident sunt perferendis beatae iure, et, vero aperiam odit magni libero. Ex corporis
+                    sapiente illo.</p>
                 <a href="#">Leia mais</a>
-                <hr>
             </article>
 
         </section>
@@ -52,19 +64,26 @@
 
             <article>
                 <h3>Título do post</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, soluta provident? Incidunt, facere! Eum quo provident sunt perferendis beatae iure, et, vero aperiam odit magni libero. Ex corporis sapiente illo.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, soluta provident? Incidunt, facere!
+                    Eum quo provident sunt perferendis beatae iure, et, vero aperiam odit magni libero. Ex corporis
+                    sapiente illo.</p>
                 <a href="#">Leia mais</a>
-                <hr>
             </article>
 
             <article>
                 <h3>Título do post 02</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, soluta provident? Incidunt, facere! Eum quo provident sunt perferendis beatae iure, et, vero aperiam odit magni libero. Ex corporis sapiente illo.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, soluta provident? Incidunt, facere!
+                    Eum quo provident sunt perferendis beatae iure, et, vero aperiam odit magni libero. Ex corporis
+                    sapiente illo.</p>
                 <a href="#">Leia mais</a>
-                <hr>
             </article>
-            
+
         </section>
     </main>
+
+    <footer>
+        <p>Todos os direitos Reservados</p>
+    </footer>
 </body>
+
 </html>

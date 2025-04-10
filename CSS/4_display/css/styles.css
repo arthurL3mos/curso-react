@@ -1,0 +1,40 @@
+.hide{
+    display: none;
+}
+
+a{
+    background-color: #EEE;
+    padding: 30px;
+    display: inline-block;
+}
+
+a:hover{
+    background-color: #F00;
+}
+
+.content-flex{
+    display: flex;
+    width: 1280px;
+    justify-content: flex-start;
+    /* height: 500px; */
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.content-flex p{
+    padding: 30px;
+    width: 250px;
+}
+
+.content-flex p:first-child{
+    font-weight: bold;
+}
+
+.content-flex p:first-child::after{
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-color: #F00;
+    display: inline-block;
+    margin-right: 20px;
+}
